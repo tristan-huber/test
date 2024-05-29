@@ -29,7 +29,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 14
+                    "ioValue": 27
                 }
             ]
         },
@@ -46,13 +46,13 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 14
+                    "ioValue": 27
                 }
             ]
         },
         {
             "atomType": "Equation",
-            "name": "x + y + z + q + r",
+            "name": "x + y + z + q + r + a + b + c + d",
             "x": 0.24791666666666667,
             "y": 0.7126436781609194,
             "uniqueID": 1717016018352,
@@ -76,9 +76,25 @@
                 {
                     "name": "r",
                     "ioValue": 1
+                },
+                {
+                    "name": "a",
+                    "ioValue": 10
+                },
+                {
+                    "name": "b",
+                    "ioValue": 1
+                },
+                {
+                    "name": "c",
+                    "ioValue": 1
+                },
+                {
+                    "name": "d",
+                    "ioValue": 1
                 }
             ],
-            "currentEquation": "x + y + z + q + r"
+            "currentEquation": "x + y + z + q + r + a + b + c + d"
         },
         {
             "atomType": "Output",
@@ -98,6 +114,13 @@
         {
             "ap1Name": "number or geometry",
             "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1717016013947,
+            "ap2ID": 1717016018352
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "a",
             "ap2Primary": false,
             "ap1ID": 1717016013947,
             "ap2ID": 1717016018352
