@@ -4,9 +4,49 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1717015899542,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": 1717016013947,
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717015909266,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": 1717016013947,
+            "x": 0.013333333333333334,
+            "y": 0.39770114942528734,
+            "uniqueID": 1717016013947,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.2359375,
+            "y": 0.5540229885057472,
+            "uniqueID": 1717016018352,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y"
+        }
+    ],
     "allConnectors": [],
     "unitsIndex": 0,
     "filetypeVersion": 1
