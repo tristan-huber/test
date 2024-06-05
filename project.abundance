@@ -102,12 +102,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717015909266,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1717016056799
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -133,13 +128,6 @@
             "ap2ID": 1717016056799
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1717016056799,
-            "ap2ID": 1717015909266
-        },
-        {
             "ap1Name": "result",
             "ap2Name": "diameter",
             "ap2Primary": false,
@@ -155,5 +143,6 @@
         }
     ],
     "unitsIndex": 0,
+    "fileTypeVersion": 1,
     "filetypeVersion": 1
 }
