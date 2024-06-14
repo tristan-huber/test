@@ -51,6 +51,19 @@
             ]
         },
         {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.5822916666666667,
+            "y": 0.31336405529953915,
+            "uniqueID": 1718401104660,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1717016056799
+                }
+            ]
+        },
+        {
             "atomType": "Equation",
             "name": "x + y + z + q + r + a + b + c + d",
             "x": 0.24791666666666667,
@@ -97,6 +110,19 @@
             "currentEquation": "x + y + z + q + r + a + b + c + d"
         },
         {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7213541666666667,
+            "y": 0.35944700460829493,
+            "uniqueID": 1718401118572,
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 5
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
@@ -106,36 +132,6 @@
                 {
                     "name": "number or geometry",
                     "ioValue": 1718401118572
-                }
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.5822916666666667,
-            "y": 0.31336405529953915,
-            "uniqueID": 1718401104660,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1717016056799
-                }
-            ]
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.7213541666666667,
-            "y": 0.35944700460829493,
-            "uniqueID": 1718401118572,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718401104660
-                },
-                {
-                    "name": "Spacing",
-                    "ioValue": 5
                 }
             ]
         }
@@ -182,13 +178,6 @@
             "ap2Primary": false,
             "ap1ID": 1717016018352,
             "ap2ID": 1717016056799
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718401104660,
-            "ap2ID": 1718401118572
         },
         {
             "ap1Name": "geometry",
