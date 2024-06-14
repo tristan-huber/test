@@ -117,6 +117,10 @@
             "uniqueID": 1718401118572,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1718401104660
+                },
+                {
                     "name": "Spacing",
                     "ioValue": 5
                 }
@@ -128,12 +132,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717015909266,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718401118572
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -164,6 +163,13 @@
             "ap2Primary": true,
             "ap1ID": 1717016056799,
             "ap2ID": 1718401104660
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718401104660,
+            "ap2ID": 1718401118572
         },
         {
             "ap1Name": "result",
