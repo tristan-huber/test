@@ -121,8 +121,8 @@
                     "ioValue": 1718401104660
                 },
                 {
-                    "name": "Spacing",
-                    "ioValue": 5
+                    "name": "Material Thickness",
+                    "ioValue": 27
                 }
             ]
         },
@@ -209,6 +209,13 @@
             "ap2Primary": false,
             "ap1ID": 1717016018352,
             "ap2ID": 1717016056799
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "Material Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1717016018352,
+            "ap2ID": 1718401118572
         },
         {
             "ap1Name": "geometry",
