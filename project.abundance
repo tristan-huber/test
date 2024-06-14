@@ -127,14 +127,6 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1717015909266,
-            "ioValues": []
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.540625,
@@ -158,6 +150,14 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717015909266,
+            "ioValues": []
         }
     ],
     "allConnectors": [
