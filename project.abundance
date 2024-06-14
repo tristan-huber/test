@@ -132,12 +132,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717015909266,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718401118572
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Rotate",
