@@ -29,7 +29,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 8
+                    "ioValue": 5
                 },
                 {
                     "name": "y length",
@@ -39,7 +39,7 @@
         },
         {
             "atomType": "Equation",
-            "name": "x - 2",
+            "name": "x - 5",
             "x": 0.10781249999999999,
             "y": 0.6405529953917051,
             "uniqueID": 1718413190380,
@@ -49,7 +49,7 @@
                     "ioValue": 10
                 }
             ],
-            "currentEquation": "x - 2"
+            "currentEquation": "x - 5"
         },
         {
             "atomType": "Tag",
