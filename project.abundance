@@ -13,34 +13,43 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3463541666666667,
-            "y": 0.2735632183908046,
-            "uniqueID": 1717016061745,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
+            "atomType": "Input",
+            "name": "thickness",
+            "x": 0.013333333333333334,
+            "y": 0.37557603686635943,
+            "uniqueID": 1718413147944,
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.47500000000000003,
-            "y": 0.39080459770114945,
+            "x": 0.4354166666666667,
+            "y": 0.5852534562211982,
             "uniqueID": 1717016056799,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1717016061745
+                    "ioValue": 1718413139331
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 8
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "x - 2",
+            "x": 0.10781249999999999,
+            "y": 0.6405529953917051,
+            "uniqueID": 1718413190380,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x - 2"
         },
         {
             "atomType": "Tag",
@@ -52,6 +61,23 @@
                 {
                     "name": "geometry",
                     "ioValue": 1718402004112
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.2739583333333333,
+            "y": 0.5576036866359447,
+            "uniqueID": 1718413139331,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 8
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 60
                 }
             ]
         },
@@ -68,7 +94,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": ""
+                    "ioValue": 10
                 }
             ]
         },
@@ -103,55 +129,28 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717015909266,
-            "ioValues": []
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.2557291666666667,
-            "y": 0.6497695852534563,
-            "uniqueID": 1718413139331,
             "ioValues": [
                 {
-                    "name": "x length",
-                    "ioValue": 8
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
+                    "name": "number or geometry",
+                    "ioValue": 1718401118572
                 }
             ]
-        },
-        {
-            "atomType": "Input",
-            "name": "thickness",
-            "x": 0.013333333333333334,
-            "y": 0.37557603686635943,
-            "uniqueID": 1718413147944,
-            "ioValues": []
-        },
-        {
-            "atomType": "Equation",
-            "name": "x - 2",
-            "x": 0.10781249999999999,
-            "y": 0.6405529953917051,
-            "uniqueID": 1718413190380,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 10
-                }
-            ],
-            "currentEquation": "x - 2"
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1717016061745,
-            "ap2ID": 1717016056799
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1718413147944,
+            "ap2ID": 1718413190380
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Material Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1718413147944,
+            "ap2ID": 1718401118572
         },
         {
             "ap1Name": "geometry",
@@ -161,11 +160,32 @@
             "ap2ID": 1718402004112
         },
         {
+            "ap1Name": "result",
+            "ap2Name": "x length",
+            "ap2Primary": false,
+            "ap1ID": 1718413190380,
+            "ap2ID": 1718413139331
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1718413190380,
+            "ap2ID": 1717016056799
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1718401104660,
             "ap2ID": 1718401118572
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718413139331,
+            "ap2ID": 1717016056799
         },
         {
             "ap1Name": "geometry",
@@ -180,20 +200,6 @@
             "ap2Primary": true,
             "ap1ID": 1718402004112,
             "ap2ID": 1718401104660
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "x",
-            "ap2Primary": false,
-            "ap1ID": 1718413147944,
-            "ap2ID": 1718413190380
-        },
-        {
-            "ap1Name": "result",
-            "ap2Name": "x length",
-            "ap2Primary": false,
-            "ap1ID": 1718413190380,
-            "ap2ID": 1718413139331
         }
     ],
     "unitsIndex": 0,
